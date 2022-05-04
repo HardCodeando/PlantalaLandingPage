@@ -201,6 +201,12 @@ input:-webkit-autofill:focus {
     -ms-transform: translateY(0);
     transform: translateY(0);
 }
+.margin-omg {
+    margin-bottom:20px;
+    color: white;
+    
+    
+}
 
 .bttn-default:hover {
     color: #ffffff;
@@ -406,6 +412,9 @@ input:-webkit-autofill:focus {
     transform: translateY(-4px);
 }
 
+@media only screen and (max-width:600px) {
+    
+}
 /*-- 7. Home-Area --*/
 
 .home-area {
@@ -705,6 +714,15 @@ input:-webkit-autofill:focus {
     margin-top: 70px;
     margin-bottom: 100px;
     color: #ffffff;
+}
+
+@media only screen and (min-width:768px){
+    .flexillo  {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
 }
 
 .download-area .mobile-image {
